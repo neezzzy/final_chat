@@ -1,0 +1,56 @@
+
+      footer{
+        background-color: #343434;
+        
+        }
+        footer h2{
+            color:#F7FFF7;
+        }
+
+        li a{
+            color:white;
+            line-height:1.5em;
+        }
+        ul .contactList{
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        
+        }
+        ul li{
+            list-style:none;
+        }
+
+        .contentWrap{
+            max-width: 800px;
+            width: 85%;
+            margin: 0 auto;
+            padding: 60px 0;
+        }
+        @media screen and (min-width:810px) {
+         footer{
+                text-align: center;
+         }
+            .contactList a{
+                padding:15px;
+            }
+            .contactList{
+                list-style: none;
+                padding:0;
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+        @media screen and (max-width:809px){
+          
+             h2{
+                line-height:1;
+            }
+        
+            .contactList a{
+                padding:5px;
+            }
+        }

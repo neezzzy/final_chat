@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function Login() {
+import "./App.css";
+
+
+export default function Login(props) {
+
   return (
-    <div>Login Screen</div>
+
+<div></div>
   )
 }
